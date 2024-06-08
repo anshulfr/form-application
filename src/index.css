@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Exo Black';
+    src: url('./assets/Fonts/exo-black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Exo Bold';
+    src: url('./assets/Fonts/exo-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Exo Extra Bold';
+    src: url('./assets/Fonts/exo-extra-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Exo Light';
+    src: url('./assets/Fonts/exo-light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Exo Medium';
+    src: url('./assets/Fonts/exo-medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Exo Regular';
+    src: url('./assets/Fonts/exo-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Exo Semi Bold';
+    src: url('./assets/Fonts/exo-semi-bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Exo Thin';
+    src: url('./assets/Fonts/exo-thin.otf') format('opentype');
+}
+
+body {
+    font-family: 'Exo Regular', sans-serif;
+    color: #112949;
+}
